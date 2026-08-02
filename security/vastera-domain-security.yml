@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: probed
+source: manual dig/curl/whois probes of vastera.com (no Website/baseURL in apis.yml; historical corporate domain)
+note: Vastera, Inc. was acquired by JPMorgan Chase Bank, N.A. effective 2005-04-01 and no
+  longer operates a public website. The vastera.com domain (registered 1997-06-03) remains
+  actively held and is configured for email only — no A records resolve for the apex or www
+  hosts, so HTTPS/TLS/HSTS could not be evaluated.
+hosts:
+  - host: vastera.com
+    https: false
+    reachable: false
+    detail: no A record; curl HTTPS returned no response (000)
+  - host: www.vastera.com
+    https: false
+    reachable: false
+    detail: no A record; curl HTTPS returned no response (000)
+domains:
+  - domain: vastera.com
+    dnssec: false
+    caa: []
+    spf: true
+    spf_record: 'v=spf1 mx include:spf.protection.outlook.com include:us._netblocks.mimecast.com -all'
+    dmarc: true
+    dmarc_policy: quarantine
+    mx:
+      - us-smtp-inbound-1.mimecast.com
+      - us-smtp-inbound-2.mimecast.com
+    nameservers:
+      - albert.ns.cloudflare.com
+      - eloise.ns.cloudflare.com
+    registrar: Amazon Registrar, Inc.
+    created: '1997-06-03'
+    expires: '2027-06-02'

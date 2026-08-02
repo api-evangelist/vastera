@@ -1,7 +1,26 @@
 aid: vastera
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vastera.png
 name: Vastera
-description: Vastera is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Vastera, Inc. was a global trade management (GTM) software and managed-services
+  company headquartered in Dulles, Virginia. Its solutions automated the trade-management
+  processes tied to the physical movement of goods across international borders — import/export
+  documentation, licensing and classification, compliance and tax requirements, inventory
+  management, and payment tracking. A Battery Ventures portfolio company, Vastera went public
+  on Nasdaq in 2000 and was acquired by JPMorgan Chase Bank, N.A. for $3.00 per share
+  (approximately $129 million), effective April 1, 2005, becoming JPMorgan Chase Vastera. It
+  no longer operates independently and publishes no public website or APIs; the vastera.com
+  domain remains registered but is configured for email only.
 url: https://raw.githubusercontent.com/api-evangelist/vastera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,37 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-detail: Acquired by JPMorgan Chase Bank, N.A. effective 2005-04-01 (SEC 8-K,
+  CIK 0001075056); delisted from Nasdaq and deregistered via Form 15-12G.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Global Trade Management
+- Supply Chain
+- Trade Compliance
+- Logistics
+- Acquired
 apis: []
+common:
+- name: Domain Security Profile
+  type: DomainSecurity
+  url: security/vastera-domain-security.yml
+- name: LLMs.txt
+  type: LLMsTxt
+  url: llms/vastera-llms.txt
+- name: SEC EDGAR Filing History
+  type: CorporateFilings
+  url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001075056&type=&dateb=&owner=include&count=40
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

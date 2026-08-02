@@ -1,0 +1,19 @@
+# Vastera
+
+> Vastera, Inc. was a global trade management (GTM) software and managed-services company headquartered in Dulles, Virginia. Its solutions automated the trade-management processes associated with the physical movement of goods internationally — import/export documentation, licensing and classification, compliance and tax requirements, inventory management, and payment tracking. Vastera filed its IPO S-1 in April 2000 (Nasdaq), was backed in part by Battery Ventures, and was acquired by JPMorgan Chase Bank, N.A. for $3.00 per share (approximately $129 million), effective April 1, 2005, becoming JPMorgan Chase Vastera. The company no longer operates independently and publishes no APIs.
+
+## Status
+
+- Defunct as an independent company: acquired by JPMorgan Chase Bank, N.A. (effective 2005-04-01); delisted from the Nasdaq National Market and deregistered (SEC Form 15-12G, 2005-04-01).
+- vastera.com (registered 1997) is still held and configured for email only; no public website resolves.
+- No developer portal, API documentation, or machine-readable API artifacts exist for this company.
+
+## Records
+
+- SEC EDGAR filing history (CIK 0001075056): https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001075056&type=&dateb=&owner=include&count=40
+- Merger-completion 8-K (2005-04-01): https://www.sec.gov/Archives/edgar/data/1075056/000110465905014642/a05-6144_18k.htm
+- JPMorgan Chase closing press release (Exhibit 99.1): https://www.sec.gov/Archives/edgar/data/1075056/000110465905014642/a05-6144_1ex99d1.htm
+
+## Profile
+
+- APIs.json profile: https://raw.githubusercontent.com/api-evangelist/vastera/refs/heads/main/apis.yml
