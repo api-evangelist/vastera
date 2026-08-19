@@ -31,7 +31,7 @@ x-tier-reason: portfolio-lead
 x-status: acquired
 x-status-detail: Acquired by JPMorgan Chase Bank, N.A. effective 2005-04-01 (SEC 8-K,
   CIK 0001075056); delisted from Nasdaq and deregistered via Form 15-12G.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
